@@ -74,4 +74,3 @@ jobs:
           git commit -m "Update image tag to ${GITHUB_SHA}"
           git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/iebpr89/GitOps_petclinic.git HEAD:main
           )
-
